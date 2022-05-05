@@ -10,7 +10,7 @@ export const addPersonalInfo = async (state, dispatch) => {
     // start
     dispatch(addPersonalInfoStart())
     // pending
-    const response = await axios.post( 'http://localhost:3000/api/hello', state )
+    const response = await axios.post( '/api/hello', state )
     const data = response.data.data
     
     // success
