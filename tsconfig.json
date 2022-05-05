@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Chart/LineChart.jsx", "pages/test.jsx", "pages/chart.js", "pages/api/hello.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Chart/LineChart.jsx", "pages/test.jsx", "pages/chart.js", "pages/api/hello.js", "pages/index.jsx", "pages/_app.jsx", "components/widgets/StatsSimple.jsx"],
   "exclude": ["node_modules"]
 }
